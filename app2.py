@@ -54,8 +54,8 @@ rf1 = [reaction1(q2, c_cournot) for q2 in qs]
 rf2 = [reaction2(q1, c_cournot) for q1 in qs]
 
 fig_cournot, ax = plt.subplots(figsize=(5, 5))
-ax.plot(qs, rf1, label="Firm 1's reaction ($q_1=r_1(q_2)$)", color='blue')
-ax.plot(rf2, qs, label="Firm 2's reaction ($q_2=r_2(q_1)$)", color='red')
+ax.plot(rf1, qs, label="Firm 1's reaction ($q_1=r_1(q_2)$)", color='blue')
+ax.plot(qs, rf2, label="Firm 2's reaction ($q_2=r_2(q_1)$)", color='red')
 points_arr = np.array(points)
 ax.plot(points_arr[:,0], points_arr[:,1], 'ko-', label='Iterative path', markersize=7)
 # Removed iteration numbering for clarity

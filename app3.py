@@ -107,6 +107,7 @@ st.markdown(
     - Adjust the transition rates and initial unemployment.
     - The plot shows the evolution of unemployment, low wage, and high wage shares.
     - The dashed line shows the steady state unemployment.
-    - Which sliders affect the evolution but not the steady state level of unemployment?
+    - Which slider(s) affect the evolution but not the steady state level of unemployment?
+    - Does an increase in $\lambda$ lead to lower unemployment?
     """
 )

@@ -142,4 +142,3 @@ else:
           - if not: go through the steps above again with $p_1 =  \mathrm{markup} \\times E(q|q<p_0)$
         """
     )
-
