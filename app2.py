@@ -58,7 +58,6 @@ ax.plot(rf1, qs, label="Firm 1's reaction ($q_1=r_1(q_2)$)", color='blue')
 ax.plot(qs, rf2, label="Firm 2's reaction ($q_2=r_2(q_1)$)", color='red')
 points_arr = np.array(points)
 ax.plot(points_arr[:,0], points_arr[:,1], 'ko-', label='Iterative path', markersize=7)
-# Removed iteration numbering for clarity
 ax.set_xlabel('$q_1$')
 ax.set_ylabel('$q_2$')
 ax.set_title('Nash Equilibrium Path for Cournot via Alternating Best Response')
@@ -66,7 +65,7 @@ ax.legend()
 ax.grid(True)
 ax.set_xlim(0, 0.6)
 ax.set_ylim(0, 0.6)
-plt.tight_layout()
+# plt.tight_layout()
 st.pyplot(fig_cournot)
 
 st.markdown(
